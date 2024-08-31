@@ -1,8 +1,7 @@
-# Variables
-side = 4
+def cube_surface_area(side_length):
+    area = 6 * side_length ** 2
+    return area
 
-# Calculation
-area_of_cube = 6 * (side ** 2)
-
-# Output
-print("The surface area of the cube is:", area_of_cube)
+# Example usage
+side_length = 4
+print(f"Surface area of the cube: {cube_surface_area(side_length)} square units")

@@ -1,9 +1,8 @@
-# Variables
-length = 10
-width = 5
+def rectangle_area(length, width):
+    area = length * width
+    return area
 
-# Calculation
-area_of_rectangle = length * width
-
-# Output
-print("The area of the rectangle is:", area_of_rectangle)
+# Example usage
+length = 5
+width = 3
+print(f"Area of the rectangle: {rectangle_area(length, width)} square units")

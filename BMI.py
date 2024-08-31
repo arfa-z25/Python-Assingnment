@@ -1,9 +1,8 @@
-# Variables
-weight_kg = 70  # weight in kilograms
-height_m = 1.75  # height in meters
+def calculate_bmi(weight, height):
+    bmi = weight / height ** 2
+    return bmi
 
-# Calculation
-bmi = weight_kg / (height_m ** 2)
-
-# Output
-print("Your BMI is:", bmi)
+# Example usage
+weight = 70  # in kilograms
+height = 1.75  # in meters
+print(f"BMI: {calculate_bmi(weight, height):.2f}")

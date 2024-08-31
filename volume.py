@@ -1,10 +1,10 @@
-# Variables
-radius = 3  # radius in meters
-height = 5  # height in meters
-pi = 3.14159
+import math
 
-# Calculation
-volume_of_cylinder = pi * (radius ** 2) * height
+def cylinder_volume(radius, height):
+    volume = math.pi * radius ** 2 * height
+    return volume
 
-# Output
-print("The volume of the cylinder is:", volume_of_cylinder)
+# Example usage
+radius = 3
+height = 10
+print(f"Volume of the cylinder: {cylinder_volume(radius, height):.2f} cubic units")
